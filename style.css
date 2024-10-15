@@ -1,0 +1,115 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+main{
+    margin: 0;
+}
+
+
+.heroSection{
+    background-image: url(./media/hero-bg.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 85vh; 
+    z-index: 1;
+    margin: 0;
+    /* display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; */
+}
+
+.opacBg{
+    margin: 0;
+    background-color: rgba(247, 241, 241,0.5);
+    
+}
+.heroStyle h1{
+    padding-top: 20vh;
+}
+
+.heroStyle p{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 0%;
+    color: rgb(132, 116, 116);
+    font-weight: 500;
+}
+
+/* About section */
+.styleAbout{
+    background-color: #f5f9ff;
+}
+
+/* Team Section */
+.teamStyle{
+    background-color:#f5f9ff ;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+}
+
+.teamStyle .card{
+    box-shadow: 1px 1px 10px gray;
+}
+.textMargin{
+    margin-bottom: 1rem;
+}
+.textMargin p{
+    line-height: 0%;
+}
+
+/* Portfolio */
+.hoverIcon a:hover{
+    color: blue !important;
+    
+}
+
+/* contact */
+.shadowClass{
+    /* border: 1px 1px 5px gray; */
+    box-shadow: .5px .5px 2px gray!important;
+}
+
+.mapRes{
+    width: 550px; 
+    height: 300px;
+}
+
+@media screen and (max-width: 576px){
+    /* Header */
+    .AdRes{
+        font-size: .5rem;
+        font-weight: normal !important;
+        margin-left: 0%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .heroStyle{
+        padding: 1rem !important; 
+    }
+    .opacBg{
+        padding:1%;
+    }
+    .heroStyle p{
+        margin: 1px;
+        margin-bottom: 2rem;
+        font-size: 0.7rem;
+        line-height: normal;
+
+    }
+    /* team */
+    
+    .textMargin{
+        padding: 0;
+    }
+
+    /* Contact  */
+    .mapRes{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1rem !important;
+    }
+}
